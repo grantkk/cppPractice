@@ -14,7 +14,6 @@ int main()
 	std::string s = "s123342x";
 	char start = s[0];
 	char end = s[7];
-	std::string n;
 	std::cout<< s[0]<<std::endl;
 	std::cout<< s[7]<<std::endl;
 	std::cout<<s.substr(1,6)<<std::endl;
