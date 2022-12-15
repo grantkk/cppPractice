@@ -12,7 +12,6 @@ bool isNumeric(std::string const &str)
 int main()
 {
 	std::string s = "s123342x";
-	std::istringstream is( s );
 	char start = s[0];
 	char end = s[7];
 	std::string n;
